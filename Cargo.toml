@@ -1,0 +1,12 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+    "crates/ibc",
+    "crates/ibc-derive",
+]
+
+exclude = [
+    "ci/no-std-check",
+]
